@@ -9,7 +9,6 @@ target 'KifRreleaseBuildIssue' do
 
   target 'KifRreleaseBuildIssueTests' do
     inherit! :search_paths
-    # Pods for testing
+    pod 'KIF', '~> 3.0', :configurations => ['Debug']
   end
-
 end
